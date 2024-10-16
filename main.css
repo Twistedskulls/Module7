@@ -3,19 +3,40 @@
 *{
 	box-sizing: border-box;
 	background-color: rgba(110,195,210,1.00);
+	width: 1000px;
+	margin: 0 auto;
 }
-nav{
-  display: flex;
-  flex-flow: row wrap;
-  /* This aligns items to the end line on main-axis */
-  justify-content: flex-end;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(3,141,25,1.00)
 }
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	}
 /* Change the link color to #111 (black) on hover */
 li a:hover {
 	background-color: #111;
 }
 .container{
-	display: flex
+	display: flex;
+	justify-content: space-between;
+}
+.container1{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 .box{
 	width:150px;
@@ -35,4 +56,16 @@ li a:hover {
 }
 #box4{
 	background-color: rgba(44,220,64,1.00)
+}
+#box5{
+	background-color: rgba(251,251,251,1.00)
+}
+#box6{
+	background-color: rgba(152,152,152,1.00)
+}
+#box7{
+	background-color: rgba(69,69,69,1.00)
+}
+#box8{
+	background-color: rgba(34,34,34,1.00)
 }
