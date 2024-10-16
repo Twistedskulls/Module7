@@ -14,7 +14,25 @@ nav{
 li a:hover {
 	background-color: #111;
 }
+.container{
+	display: flex
+}
 .box{
 	width:150px;
 	height:150px;
+	font-size: 8em;
+	text-align: center;
+	border-radius: 15px;
+}
+#box1{
+	background-color: rgba(167,8,196,1.00)
+}
+#box2{
+	background-color: rgba(6,31,152,1.00)
+}
+#box3{
+	background-color: rgba(242,237,46,1.00)
+}
+#box4{
+	background-color: rgba(44,220,64,1.00)
 }
