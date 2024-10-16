@@ -25,7 +25,10 @@
 		<br>
 		<input type="text" id="datepicker">
 <script>
-    $("#datepicker").datepicker( "option", "dateFormat", "yy-mm-dd" );
+    $("#datepicker").datepicker({
+        changeMonth: true, // shows months dropdown
+        changeYear: true   // shows years dropdown
+    });
 </script>
 		<div class="container1">
 			 <div class="box" id="box5">5</div>
