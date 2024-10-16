@@ -6,6 +6,10 @@
 	width: 1000px;
 	margin: 0 auto;
 }
+script{
+	width:300px;
+	height:300px;
+}
 h1{
 	margin: 0 auto;
 }
