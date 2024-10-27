@@ -76,6 +76,6 @@ li a:hover {
 #box8{
 	background-color: rgba(34,34,34,1.00)
 }
-@media all (min-width:500px;) {
-	{overflow-x: hidden;}
+@media screen and (min-width:500px;) {
+font-size: 1.5em;
 }
