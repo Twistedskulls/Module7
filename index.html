@@ -31,6 +31,21 @@
         changeYear: true   // shows years dropdown
     });
 </script>
+		<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
 		<div class="container1">
 			 <div class="box" id="box5">5</div>
 			 <div class="box" id="box6">6</div>

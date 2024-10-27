@@ -76,6 +76,12 @@ li a:hover {
 #box8{
 	background-color: rgba(34,34,34,1.00)
 }
-@media screen and (min-width:500px;) {
-font-size: 1.5em;
+@media screen and (max-width:500px) {
+.nav{
+	display:none;}
+}
+@media screen and (max-width:500px) {
+	.body {
+		background-color:antiquewhite
+	}
 }
