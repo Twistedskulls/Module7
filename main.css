@@ -79,9 +79,5 @@ li a:hover {
 @media screen and (max-width:700px) {
 .nav{
 	display:none;}
-}
-@media screen and (max-width:700px) {
-	.body {
-		background-color:antiquewhite
-	}
+	.container{flex-direction:column;}
 }
