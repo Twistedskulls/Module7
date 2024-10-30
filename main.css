@@ -80,4 +80,5 @@ li a:hover {
 .nav{
 	display:none;}
 	.container{flex-direction:column;}
+	.box{margin-bottom: 10px;}	
 }
